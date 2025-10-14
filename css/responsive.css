@@ -1,4 +1,56 @@
 @media screen and (min-width:700px) {
-    
-    
+
+    .menu {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+
+    .evidenza,
+    .podcast,
+    .classifiche,
+    .generi,
+    .uscite,
+    .scopri {
+        background-color: red;
+        min-height: 50px;
+        width: 13%;
+    }
+
+    .recently-played {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 16px;
+        justify-content: flex-start;
+    }
+
+    .heavy-metal,
+    .stranger-things,
+    .quiet-place,
+    .split,
+    .wellnes,
+    .sinister {
+        background-color: violet;
+        min-height: 200px;
+        width: 20%;
+
+    }
+
+    .ascolti {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .img1,
+    .img2 {
+        background-color: green;
+        min-height: 200px;
+        width: 40%;
+    }
+
 }
