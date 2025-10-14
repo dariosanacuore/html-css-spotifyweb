@@ -85,35 +85,63 @@ header {
     background-color: violet;
     min-height: 200px;
     width: 40%;
-    
+
 }
-.john-title{
-     background-color: blue;
+
+.john-title {
+    background-color: blue;
     min-height: 80px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.ascolti{
+
+.ascolti {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap:5px;
+    gap: 5px;
     display: none;
 }
-.img1,.img2{
+
+.img1,
+.img2 {
     background-color: green;
     min-height: 200px;
     width: 40%;
 }
 
- 
-.footer1{
-    position: fixed;   
-    bottom: 0;        
-    left: 0;           
-    width: 100%;      
+.artist-title {
+    background-color: blue;
+    min-height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.riquadri {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display:none;
+}
+
+.riq-radius,
+.riq2-radius {
+    background-color: green;
+    min-height: 200px;
+    width: 40%;
+    border-radius: 100%;
+}
+
+
+.footer1 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     min-height: 100px;
     background-color: lightgray;
-    z-index: 1000;  
+    z-index: 1000;
 }
