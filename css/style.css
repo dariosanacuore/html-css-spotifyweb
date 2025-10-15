@@ -1,23 +1,45 @@
 .wrapper {
     width: 100%;
-    min-height: 100vh;
+    height: calc(100vh - 100px);
     display: flex;
 }
 
 
 .sidebar {
-    width: 30%;
-    background-color: yellow;
+    width: 20%;
+    background-color: black;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+i{
+    color:white;
+    margin:10px;
+}
+.fa-arrow-down{
+    
+    color:white;
+    font-size:8px;
+}
+.fa-circle-user{
+    color:white;
+    font-size:10px;
+}
+.bg-white-icon{
+    color:white;
+    margin-left:3px;
+    font-size:0.5rem;
+    white-space: nowrap;
 }
 
 
 .main {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0%;
+    width:80%;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 
@@ -53,17 +75,17 @@ header {
 
 .bg-gray {
     color: gray;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
 }
 
 .bg-white-card {
     color: white;
     font-size: 1rem;
+    white-space: nowrap;
 }
 
-figcaption {
-    text-align: center;
-}
+
 
 
 
@@ -71,7 +93,7 @@ figcaption {
 .podcast,
 .classifiche,
 .generi,
-.uscite,♦
+.uscite,
 .scopri {
     background-color: red;
     min-height: 50px;
@@ -88,7 +110,7 @@ figcaption {
 
 .recently-played {
     display: flex;
-    ♦flex-direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     padding: 16px;
@@ -101,13 +123,45 @@ figcaption {
 .split,
 .wellnes,
 .sinister {
-    background-color: violet;
-    min-height: 200px;
+    
+    min-height:200px;
     width: 40%;
 
 }
+figure{
+    margin:0;
+    padding:0;
+}
+figcaption {
+    text-align: center;
+}
+.heavy-metal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin:0;
+    padding:0;
+}
+.stranger-things img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cure-fig{
+    display:none;
+}
+.sinister-fig{
+    display:none;
+}
+
 
 .john-title {
+    display:none;
     background-color: blue;
     min-height: 80px;
     width: 100%;
@@ -117,7 +171,7 @@ figcaption {
 
 .ascolti {
     display: flex;
-    ♦justify-content: center;
+    justify-content: center;
     flex-direction: row;
     gap: 5px;
     display: none;
@@ -136,12 +190,12 @@ figcaption {
     width: 100%;
     margin-top: 10px;
    margin-bottom: 10px;
-    display: block;
+    display:none;
 }
 
 .riquadri {
     display: flex;
-    ♦♦justify-content: center;
+    justify-content: center;
     gap: 20px;
     display: none;
 }
@@ -156,11 +210,8 @@ figcaption {
 
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    min-height: 100px;
+    height: 100px;
     background-color: lightgray;
-    z-index: 1000;
+    z-index: 9999;
 }
