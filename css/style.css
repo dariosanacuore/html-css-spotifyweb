@@ -13,7 +13,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+.spotify-title{
+    display:none;
+    color:white;
+    font-size:1.2rem;
+}
 i{
     color:gray;
     margin:10px;
@@ -215,12 +219,17 @@ img{
 
 
 .john-title {
+    color:white;
     display:none;
-    background-color: blue;
     min-height: 80px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.p-john-title{
+    display:none;
+    color:gray;
+    font-size:0.7rem;
 }
 
 .ascolti {
@@ -233,9 +242,18 @@ img{
 
 .img1,
 .img2 {
-    background-color: green;
     min-height: 200px;
    width: 40%;
+}
+.radar-display{
+    display:none;
+    color: white;
+    font-size: 1rem;
+}
+.mixdaily-display{
+    display:none;
+    color: white;
+    font-size: 1rem;
 }
 
 .artist-title {

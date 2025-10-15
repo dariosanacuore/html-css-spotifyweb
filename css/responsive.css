@@ -37,7 +37,7 @@
     .split,
     .wellnes,
     .sinister {
-        background-color: violet;
+        
         min-height: 200px;
         width: 20%;
 
@@ -49,10 +49,17 @@
         gap: 20px;
 
     }
-
+    .john-title{
+        display:block;
+    }
+    .john-title-doe{
+        display:block;
+    }
+    .p-john-title{
+        display:block;
+    }
     .img1,
     .img2 {
-        background-color: green;
         min-height: 200px;
         width: 40%;
     }
@@ -118,6 +125,9 @@
 }
 /*mobile s*/
 @media screen and (min-width:600px) {
+    .spotify-title{
+        display: inline;
+    }
     .menu ul {
         gap:15px;
     }
@@ -143,4 +153,10 @@
     .sinister-fig{
         display:block;
     }
+    .radar-display{
+    display:none;
+}
+.mixdaily-display{
+    display:none;
+}
 }
