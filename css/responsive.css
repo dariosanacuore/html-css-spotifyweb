@@ -112,12 +112,31 @@
 
     
 }
-
+/*mobile s*/
 @media screen and (min-width:600px) {
     .menu ul {
         gap:15px;
     }
     .menu ul li{
         width:20%;
+    }
+    .bg-white-icon{
+        display:inline;
+        font-size:0.5rem;
+    }
+    .playlist-div{
+        display:block;
+    }
+    .app-down{
+        display: inline;
+    }
+    .btn-upgrade{
+        margin-left:300px;
+    }
+    .cure-fig{
+        display:block;
+    }
+    .sinister-fig{
+        display:block;
     }
 }

@@ -15,7 +15,7 @@
 }
 
 i{
-    color:white;
+    color:gray;
     margin:10px;
 }
 .fa-arrow-down{
@@ -28,11 +28,15 @@ i{
     font-size:10px;
 }
 .bg-white-icon{
-    color:white;
+    color:gray;
     margin-left:3px;
     font-size:0.4rem;
     white-space: nowrap;
     display:none;
+}
+.bg-white2-icon{
+    color:white;
+
 }
 .playlist-div{
     display: none;
@@ -82,7 +86,7 @@ header {
     color:black;
 }
 .playlist-span{
-    color:white;
+    color:gray;
     font-size:0.8rem;
     white-space: nowrap;
 }
