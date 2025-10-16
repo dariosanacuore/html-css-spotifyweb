@@ -170,13 +170,13 @@ header {
 }
 
 .underline {
-  display: block;
-  width: 20px;       
-  height: 2px;      
-  background-color: greenyellow;
-  margin-top:4px;
-  margin-left:15px;
-  text-align: center;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: greenyellow;
+    margin-top: 4px;
+    margin-left: 15px;
+    text-align: center;
 }
 
 .bg-gray {
@@ -360,4 +360,93 @@ footer {
     height: 100px;
     background-color: lightgray;
     z-index: 9999;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.figure-footer {
+    display: inline-block;
+}
+
+.img-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-sinister {
+    width: 80px;
+    height: auto;
+}
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.sinister-title-footer {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text-group figcaption {
+    font-size: 14px;
+    color: gray;
+    margin-top: 2px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-backward-step,
+.fa-circle-play,
+.fa-forward-step,
+.fa-rotate-right {
+    color:white;
+}
+.play-container{
+    width:100%;
+    height:10px;
+    background-color:black;
+    border-radius:10px;
+    padding:2px;
+}
+.play-bar{
+    width:100%;
+    height:100%;
+}
+.play-level{
+    width:50%;
+    height:100%;
+    background-color: gray;
+}
+.fa-heart{
+    margin-left:30px;
+}
+.fa-bars-staggered{
+    color:white;
+}
+.right-menu {
+  display: flex;           
+  align-items: center;     
+  gap: 5px;               
+}
+.volume-container{
+    width:100%;
+    height:10px;
+    background-color:black;
+    border-radius:10px;
+    padding:2px;
+     
+}
+.volume-bar{
+    width:100%;
+    height:100%;
+}
+.volume-level{
+    width:50%;
+    height:100%;
+    background-color: gray;
 }
