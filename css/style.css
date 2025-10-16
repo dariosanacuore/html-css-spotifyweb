@@ -76,9 +76,12 @@ header {
     background-color: black;
     width: 100%;
     min-height: 80px;
+    display:flex;
+    justify-content: flex-end;
 }
 
 .btn-upgrade {
+    text-decoration: none;
     color: white;
     background-color: black;
     border: 1px solid white;
@@ -87,6 +90,8 @@ header {
     margin-top: 50px;
     margin-left: 200px;
     padding: 14px;
+    padding-right:10px;
+    padding-left:10px;
     display: inline-block;
 }
 
@@ -111,7 +116,7 @@ header {
 
 .lista-playlist {
     margin-left: 4px;
-    padding-left: 0;
+    padding-left: 4px;
 }
 
 .lista-playlist li {
@@ -182,7 +187,7 @@ header {
 
 .title-played {
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -314,6 +319,10 @@ img {
   border-radius: 50%; 
   object-fit: cover;  
   border: 2px solid #fff;
+}
+.radius-img{
+    color:white;
+    font-size:1rem;
 }
 
 footer {
