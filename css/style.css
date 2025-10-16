@@ -68,7 +68,8 @@ i {
 }
 .bg-gray-icon-sidebar{
     color:gray;
-    font-size:0.6rem;
+    font-size:0.5rem;
+    white-space: nowrap;
 }
 
 .playlist-div {
@@ -427,6 +428,13 @@ footer {
 .fa-forward-step,
 .fa-rotate-right {
     color: white;
+    cursor: pointer;
+}
+.fa-backward-step,
+.fa-circle-play,
+.fa-forward-step,
+.fa-rotate-right:hover{
+    
 }
 
 .play-container {
@@ -458,16 +466,19 @@ footer {
 .fa-bars-staggered {
     color: white;
     font-size: 0.6rem;
+    cursor: pointer;
 }
 
 .fa-tv {
     color: white;
     font-size: 0.6rem;
+    cursor: pointer;
 }
 
 .fa-volume-low {
     color: white;
     font-size: 0.6rem;
+    cursor: pointer;
 }
 
 .right-menu {}
