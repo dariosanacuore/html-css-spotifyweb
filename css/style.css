@@ -20,6 +20,20 @@
     font-size: 1.2rem;
 }
 
+.fa-house {
+    color: white;
+
+
+}
+
+.icone .fa-house {
+    border-left: 4px solid greenyellow;
+    padding-left: 8px;
+    margin: 1px;
+}
+
+
+
 i {
     color: gray;
     margin: 10px;
@@ -37,7 +51,7 @@ i {
 }
 
 .bg-white-icon {
-    color: gray;
+    color: white;
     margin-left: 3px;
     font-size: 0.4rem;
     white-space: nowrap;
@@ -48,7 +62,7 @@ i {
     display: none;
     color: white;
     white-space: nowrap;
-    font-size:0.6rem;
+    font-size: 0.6rem;
 
 }
 
@@ -76,7 +90,7 @@ header {
     background-color: black;
     width: 100%;
     min-height: 80px;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 }
 
@@ -90,8 +104,8 @@ header {
     margin-top: 50px;
     margin-left: 200px;
     padding: 14px;
-    padding-right:10px;
-    padding-left:10px;
+    padding-right: 10px;
+    padding-left: 10px;
     display: inline-block;
 }
 
@@ -155,12 +169,23 @@ header {
     white-space: nowrap;
 }
 
+.underline {
+  display: block;
+  width: 20px;       
+  height: 2px;      
+  background-color: greenyellow;
+  margin-top:4px;
+  margin-left:15px;
+  text-align: center;
+}
+
 .bg-gray {
     color: gray;
     font-size: 0.7rem;
     white-space: nowrap;
 }
-.bg-gray-stranger{
+
+.bg-gray-stranger {
     color: gray;
     font-size: 0.5rem;
     white-space: nowrap;
@@ -255,10 +280,11 @@ img {
     color: white;
     display: none;
     width: 100%;
-    font-size:1rem;
+    font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .p-john-title {
     display: none;
     color: gray;
@@ -303,26 +329,30 @@ img {
     color: gray;
     font-size: 0.7rem;
 }
-.riquadri2{
-    display:none;
+
+.riquadri2 {
+    display: none;
 }
+
 .riquadri {
     display: flex;
     justify-content: flex-start;
-    gap:10px;
+    gap: 10px;
 }
 
-.young-img,.einaudi-img {
+.young-img,
+.einaudi-img {
 
-  width: 120px;      
-  height: 120px;
-  border-radius: 50%; 
-  object-fit: cover;  
-  border: 2px solid #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
 }
-.radius-img{
-    color:white;
-    font-size:1rem;
+
+.radius-img {
+    color: white;
+    font-size: 1rem;
 }
 
 footer {
