@@ -120,6 +120,11 @@
         min-height: 200px;
         width: 40%;
     }
+    .play-container{
+        width:140%;
+        margin-left:-30px;
+        margin-right:-30px;
+    }
 
 }
 
@@ -186,6 +191,9 @@
 
     .riquadri2{
     display:block;
+}
+.lista-playlist li{
+    font-size:1rem;
 }
 
 

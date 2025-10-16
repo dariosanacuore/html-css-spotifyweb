@@ -362,6 +362,8 @@ footer {
     z-index: 9999;
     padding-top: 20px;
     padding-left: 20px;
+    
+   
 }
 
 .figure-footer {
@@ -375,7 +377,7 @@ footer {
 }
 
 .footer-sinister {
-    width: 80px;
+    width: 40px;
     height: auto;
 }
 
@@ -385,19 +387,19 @@ footer {
 }
 
 .sinister-title-footer {
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 .text-group figcaption {
-    font-size: 14px;
+    font-size: 8px;
     color: gray;
     margin-top: 2px;
 }
 
 .menu-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .fa-backward-step,
@@ -412,6 +414,8 @@ footer {
     background-color:black;
     border-radius:10px;
     padding:2px;
+    
+    
 }
 .play-bar{
     width:100%;
@@ -421,25 +425,34 @@ footer {
     width:50%;
     height:100%;
     background-color: gray;
+   
 }
 .fa-heart{
     margin-left:30px;
 }
 .fa-bars-staggered{
     color:white;
+    font-size:0.6rem;
+}
+.fa-tv{
+    color:white;
+    font-size:0.6rem;
+}
+.fa-volume-low{
+    color:white;
+    font-size:0.6rem;
 }
 .right-menu {
-  display: flex;           
-  align-items: center;     
-  gap: 5px;               
+              
 }
 .volume-container{
+    
     width:100%;
     height:10px;
     background-color:black;
     border-radius:10px;
     padding:2px;
-     
+  
 }
 .volume-bar{
     width:100%;
@@ -450,3 +463,7 @@ footer {
     height:100%;
     background-color: gray;
 }
+.right-menu{
+    margin-top:15px;
+}
+
