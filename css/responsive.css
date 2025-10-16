@@ -124,14 +124,6 @@
     .mixdaily-display {
         display: block;
     }
-    .mixdaily-fig{
-        display:block;
-        color:white;
-    }
-    .radar-fig{
-        display:block;
-        color:white;
-    }
     .artist-title{
         display:block;
         color:white;
@@ -147,6 +139,9 @@
 
 /*mobile s*/
 @media screen and (min-width:600px) {
+    .bg-white2-icon{
+        display:inline;
+    }
     .spotify-title {
         display: inline;
     }
