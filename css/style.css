@@ -58,12 +58,17 @@ i {
     display: none;
 }
 
+
 .bg-white2-icon {
     display: none;
     color: white;
     white-space: nowrap;
     font-size: 0.6rem;
 
+}
+.bg-gray-icon-sidebar{
+    color:gray;
+    font-size:0.6rem;
 }
 
 .playlist-div {
@@ -107,6 +112,10 @@ header {
     padding-right: 10px;
     padding-left: 10px;
     display: inline-block;
+    cursor: pointer;
+}
+.btn-upgrade:hover{
+    transform: translateY(-5px) scale(1.05);
 }
 
 .playlist-title {
@@ -132,6 +141,10 @@ header {
     margin-left: 4px;
     padding-left: 4px;
 }
+.lista-playlist li:hover{
+    color:white;
+    cursor: pointer;
+}
 
 .lista-playlist li {
     color: gray;
@@ -139,6 +152,9 @@ header {
     list-style: none;
     margin-bottom: 10px;
 
+}
+.icone:hover{
+    color:white;
 }
 
 .app-down {
@@ -167,6 +183,10 @@ header {
     font-size: 0.5rem;
     color: gray;
     white-space: nowrap;
+}
+.menu ul li:hover{
+    color:white;
+    cursor:pointer;
 }
 
 .underline {
@@ -362,8 +382,8 @@ footer {
     z-index: 9999;
     padding-top: 20px;
     padding-left: 20px;
-    
-   
+
+
 }
 
 .figure-footer {
@@ -406,64 +426,218 @@ footer {
 .fa-circle-play,
 .fa-forward-step,
 .fa-rotate-right {
-    color:white;
+    color: white;
 }
-.play-container{
-    width:100%;
-    height:10px;
-    background-color:black;
-    border-radius:10px;
-    padding:2px;
-    
-    
+
+.play-container {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+
+
 }
-.play-bar{
-    width:100%;
-    height:100%;
+
+.play-bar {
+    width: 100%;
+    height: 100%;
 }
-.play-level{
-    width:50%;
-    height:100%;
+
+.play-level {
+    width: 50%;
+    height: 100%;
     background-color: gray;
-   
+
 }
-.fa-heart{
-    margin-left:30px;
+
+.fa-heart {
+    margin-left: 30px;
 }
-.fa-bars-staggered{
-    color:white;
-    font-size:0.6rem;
+
+.fa-bars-staggered {
+    color: white;
+    font-size: 0.6rem;
 }
-.fa-tv{
-    color:white;
-    font-size:0.6rem;
+
+.fa-tv {
+    color: white;
+    font-size: 0.6rem;
 }
-.fa-volume-low{
-    color:white;
-    font-size:0.6rem;
+
+.fa-volume-low {
+    color: white;
+    font-size: 0.6rem;
 }
+
+.right-menu {}
+
+.volume-container {
+
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+.volume-bar {
+    width: 100%;
+    height: 100%;
+}
+
+.volume-level {
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+}
+
 .right-menu {
-              
+    margin-top: 15px;
 }
-.volume-container{
+
+/*Gli hover*/
+
+.heavy-metal {
+    position: relative;
     
-    width:100%;
-    height:10px;
-    background-color:black;
-    border-radius:10px;
-    padding:2px;
-  
 }
-.volume-bar{
-    width:100%;
-    height:100%;
+
+.heavy-metal .fa-circle-play {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+   opacity: 0;  
 }
-.volume-level{
-    width:50%;
-    height:100%;
-    background-color: gray;
+
+
+.heavy-metal:hover .fa-circle-play{
+   opacity: 1;
 }
-.right-menu{
-    margin-top:15px;
+
+
+
+.stranger-things {
+    position: relative;
+    
 }
+
+.stranger-things .fa-circle-play {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    opacity: 0;  
+}
+
+
+.stranger-things:hover .fa-circle-play{
+   opacity: 1;
+}
+
+
+
+.quiet-place {
+    position: relative;
+    
+}
+
+.quiet-place .fa-circle-play {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    opacity: 0;  
+}
+
+
+.quiet-place:hover .fa-circle-play{
+   opacity: 1;
+}
+
+
+
+
+.split{
+    position: relative;
+    
+}
+
+.split .fa-circle-play {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    opacity: 0;  
+}
+
+
+.split:hover .fa-circle-play{
+   opacity: 1;
+}
+
+
+
+.wellnes{
+    position: relative;
+    
+}
+
+.wellnes .fa-circle-play {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    opacity: 0;  
+}
+
+
+.wellnes:hover .fa-circle-play{
+   opacity: 1;
+}
+
+
+
+.sinister{
+    position: relative;
+    
+    
+}
+
+.sinister .fa-circle-play {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    opacity: 0;  
+}
+
+
+.sinister:hover .fa-circle-play{
+   opacity: 1;
+}
+
+
+
+
+.bg-gray-icon-sidebar:hover{
+    color:white;
+    cursor:pointer;
+}
+
+
 
