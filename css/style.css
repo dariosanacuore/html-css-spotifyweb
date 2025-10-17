@@ -496,6 +496,7 @@ footer {
 
 .center-menu {
     width: 250px;
+    text-align: center;
 }
 
 .right-menu {
@@ -508,7 +509,7 @@ footer {
 
 .volume-container {
     flex-shrink: 0;
-    width: 100%;
+    width: 30%;
     height: 10px;
     background-color: black;
     border-radius: 10px;
